@@ -15,11 +15,7 @@ h6,
 p {
   margin: 0;
 }
-/* MY Clases*/
-p:last-child {
-  margin-bottom: 32px;
-}
-/* MY Clases*/
+
 ul {
   margin: 0;
   padding: 0;
@@ -108,9 +104,14 @@ body {
   }
   
  
+/* MY Classes*/
+p:last-child {
+  margin-bottom: 32px;
+}
+/* MY Classes*/
 
 
-/* MY Clases*/
+/* MY Classes*/
 .welcome-title {
     font-weight: 500;
     font-size: 32px;
@@ -119,15 +120,22 @@ body {
     text-transform: uppercase;
     margin-bottom: 32px;
   }
-  .welcome-description-first, 
+  .welcome-description-first{
+    font-size: 14px;
+    line-height: 1.27;
+    letter-spacing: -0.02em;
+    text-transform: uppercase; 
+    margin-bottom: 32px;
+    width: 285px;
+  }
   .welcome-description-second{
     font-size: 14px;
     line-height: 1.27;
     letter-spacing: -0.02em;
     text-transform: uppercase; 
     margin-bottom: 32px;
+    width: 285px;
   }
-
 
   .italic-font{
     font-style: italic;
@@ -141,6 +149,13 @@ body {
     p:last-child {
         margin-bottom: 32px;
       }
+      .welcome-description-first{
+        width: 306px;
+      }
+      .welcome-description-second{
+        width: 340px;
+      } 
+
   }
 
   @media screen and (min-width: 768px) {
@@ -183,6 +198,7 @@ body {
         display: flex;
         flex-direction: row-reverse;
         gap:32px;
+        justify-content: flex-end;
     }
     .description-flex{
         flex-direction: column;
@@ -194,13 +210,13 @@ body {
         p:last-child {
             margin-bottom: 0;
           }
-          .welcome-description-first, 
-          .welcome-description-second {
+    .welcome-description-first, 
+    .welcome-description-second {
             width: 437px;
           }
 
   }
-/* MY Clases*/
+/* MY Classes*/
 
 
   
