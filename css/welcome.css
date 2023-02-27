@@ -15,11 +15,11 @@ h6,
 p {
   margin: 0;
 }
-
+/* MY Clases*/
 p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 32px;
 }
-
+/* MY Clases*/
 ul {
   margin: 0;
   padding: 0;
@@ -110,7 +110,7 @@ body {
  
 
 
-/* main-welcom */
+/* MY Clases*/
 .welcome-title {
     font-weight: 500;
     font-size: 32px;
@@ -134,11 +134,6 @@ body {
     
   }
   
-  /* Mobile */
-  
-
-
-
   @media screen and (min-width: 375px) {
     .container {
       width: 375px;
@@ -147,9 +142,6 @@ body {
         margin-bottom: 32px;
       }
   }
-
-
-
 
   @media screen and (min-width: 768px) {
     .container {
@@ -174,8 +166,7 @@ body {
       }
 .welcome-title{
     width: 405px;}
-  }
-  
+  } 
 
 
   @media screen and (min-width: 1440px) {
@@ -209,7 +200,7 @@ body {
           }
 
   }
-
+/* MY Clases*/
 
 
   
